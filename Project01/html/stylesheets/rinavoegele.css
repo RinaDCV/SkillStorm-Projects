@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    opacity: 1; 
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0px;;
+    padding: 0px;;
+    background-position: 50% 50%;
+ 
+}
+
+main{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr;
+
+}
+
+h1{
+    display: flex;
+    grid-column: span 3;
+    justify-content: center;
+    align-content: center;
+    margin: 0px;
+    padding: 2em 0em 2em .1em;
+    color: white;
+    font-style:oblique;
+    font-size: 45px;  
+    
+}
+
+nav {
+    display: flex;
+    grid-column: span 3;
+    background-color: lightcoral;
+    justify-content: space-between;
+}
+
+nav a{
+    display:inline-block;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 32px;
+}
+
+nav a:hover{
+    background-color: aliceblue;
+}
+nav a:visited{
+    color:darkslategray;
+}
+
+div{
+    display: flex;
+    grid-column: span 3;
+  
+    color: rgb(24, 21, 21);
+  
+    text-align: center;
+    background-color:azure;
+    border-radius: 10px;
+    padding: 20px 20px 20px 10px;
+
+    margin: 50px 12px;
+    border-top-left-radius:  30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+
+.photoOfMe{
+    opacity: .85;
+    margin-bottom: 30px;
+    margin-left: 300px;
+
+    border-top-left-radius:  15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+
