@@ -3,16 +3,10 @@ body{
     padding: 0px;
     opacity: 1; 
 
-
-
     background-size:cover;
     background-position: center;
-
     background-attachment: fixed;
-   
-    
-   
- 
+
  
 }
 
@@ -49,7 +43,6 @@ nav a{
     text-decoration: none;
     padding: 10px 32px;
 }
-
 nav a:hover{
     background-color: aliceblue;
 }
@@ -86,30 +79,7 @@ div{
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-
-
 }
-.snow, .snow:before, .snow:after {
-    position: absolute;
-  
 
-    
-    animation: snow linear infinite;
-    content: "";
-  }
-  .snow:after {
-    
-    opacity: .4;
-   
-    animation-direction: reverse;
-    filter: blur(3px);
-  }
-  .snow:before {
-    animation-duration:3s;
-    animation-direction: reverse;
-    margin-left: 2px;
-    opacity: .65;
-    filter: blur(1.5px);
-  }
 
 
