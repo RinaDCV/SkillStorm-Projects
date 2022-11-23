@@ -1,19 +1,23 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(to right, rgb(163, 202, 214), rgba(175, 217, 230,0));
 
+}
+h1{
+    color: rgb(28, 68, 28);
+    text-align: center;
+    font-size: 50px;
 }
 header {
     display: flex;
     grid-column: span 3;
-    background-color: lightcoral;
+    background-color: rgba(75, 71, 65, 0.589);
     justify-content: space-between;
 }
 
 header a{
     display:inline-block;
-    font-size: 20px;
+    font-size: 24px;
     color: black;
     text-decoration: none;
     padding: 10px 32px;
@@ -25,3 +29,45 @@ header a:hover{
 header a:visited{
     color:darkslategray;
 }
+section {
+    margin: 5px;
+    text-align: center;
+    grid-column: span 3;
+ 
+}
+
+section a{
+    display:inline-block;
+    font-size: 20px;
+    color: white;
+    background-color:rgba(24, 22, 20, 0.74);
+    text-decoration: none;
+    padding: 10px 32px;
+    margin-bottom: 20px;
+}
+.recruiterschool{
+    position:relative;
+    border-radius: 30%;
+    margin-right: 5%;
+    margin-top: 15%;
+    border: 5px solid rgb(35, 41, 41);
+ }
+
+ .pool{
+    position:relative;
+    border: 5px solid rgb(35, 41, 41);
+    border-radius: 30%;
+    margin-right: 5%;
+    margin-top: 8%;
+
+ }
+
+ .collage{
+    position:relative;
+    border: 5px solid rgb(60, 68, 68);
+    border: 5px solid rgb(35, 41, 41);
+    border-radius: 10%;
+    margin-right: 5%;
+    margin-top: 0%;
+
+ }
